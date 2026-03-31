@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "vote",
+  "version": "1.0",
+  "name": "Vøte",
+  "description": "/vote for CNMC",
+  "authors": ["Fjørn"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/vote/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "fabric-datagen": [
+      "gg.cncmc.vote.client.VoteDataGenerator"
+    ],
+    "main": [
+      "gg.cncmc.vote.Vote"
+    ]
+  },
+  "mixins": [
+    "vote.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}

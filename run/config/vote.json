@@ -1,0 +1,18 @@
+{
+  "header": "\u003d\u003d\u003d Vote for CNMC! \u003d\u003d\u003d",
+  "footer": "Thanks for supporting us!",
+  "links": [
+    {
+      "label": "Planet Minecraft",
+      "url": "https://www.planetminecraft.com/server/cnmc/"
+    },
+    {
+      "label": "Minecraft Servers",
+      "url": "https://minecraftservers.org/vote/685582"
+    }
+  ],
+  "headerColor": "GOLD",
+  "footerColor": "YELLOW",
+  "labelColor": "AQUA",
+  "clickColor": "GREEN"
+}
