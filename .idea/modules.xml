@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Vote.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Vote.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Vote.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Vote.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CNMCUtils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CNMCUtils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CNMCUtils.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CNMCUtils.test.iml" />
     </modules>
   </component>
 </project>

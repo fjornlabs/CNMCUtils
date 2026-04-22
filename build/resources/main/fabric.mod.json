@@ -1,24 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "vote",
+  "id": "cnmcutils",
   "version": "1.0",
-  "name": "Vøte",
-  "description": "/vote for CNMC",
+  "name": "CNMCUtils",
+  "description": "CNMC Utility mod",
   "authors": ["Fjørn"],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/vote/icon.png",
   "environment": "server",
   "entrypoints": {
-    "fabric-datagen": [
-      "gg.cncmc.vote.client.VoteDataGenerator"
-    ],
     "main": [
-      "gg.cncmc.vote.Vote"
+      "gg.cncmc.cnmcutils.CNMCUtils"
     ]
   },
   "mixins": [
-    "vote.mixins.json"
+    "cnmcutils.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.17.3",
