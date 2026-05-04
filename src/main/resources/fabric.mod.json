@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "CNMCUtils",
   "description": "CNMC Utility mod",
-  "authors": ["Fjørn"],
+  "authors": ["fjornlabs"],
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/vote/icon.png",
