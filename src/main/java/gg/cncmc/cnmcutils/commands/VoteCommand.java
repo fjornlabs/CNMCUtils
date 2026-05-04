@@ -25,7 +25,7 @@ public class VoteCommand {
     }
 
     private static int execute(CommandContext<ServerCommandSource> context) {
-        VoteConfig cfg = CNMCUtils.config;
+        VoteConfig cfg = CNMCUtils.voteconfig;
         ServerCommandSource source = context.getSource();
 
         source.sendFeedback(() ->
@@ -55,7 +55,7 @@ public class VoteCommand {
     }
 
     private static int reload(CommandContext<ServerCommandSource> context) {
-        CNMCUtils.config = VoteConfig.load();
+        CNMCUtils.voteconfig = VoteConfig.load();
         context.getSource().sendFeedback(() ->
                 Text.literal("[Vøte] Config reloaded!").formatted(Formatting.GREEN), false);
         return 1;
