@@ -1,2 +1,2 @@
-Copyright (c) 2026 Fjorn
+Copyright (c) 2026 CNMC
 All rights reserved.
